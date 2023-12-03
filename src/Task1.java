@@ -38,8 +38,4 @@ public class Task1 extends JFrame {
         с.setColor(Color.BLUE);
         с.fillOval(cX - r, cY - r, 2 * r, 2 * r);
     }
-
-    public static void main(String[] args) {
-        new Task1().setVisible(true);
-    }
 }
