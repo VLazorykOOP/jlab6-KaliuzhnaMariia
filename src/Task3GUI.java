@@ -112,7 +112,7 @@ public class Task3GUI extends JFrame {
         }
     }
 
-    public static class CustomDataException extends ArithmeticException {
+    public static class CustomDataException extends RuntimeException {
         public CustomDataException(String message) {
             super(message);
         }
